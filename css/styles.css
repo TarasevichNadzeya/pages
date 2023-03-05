@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: rgb(170, 169, 169);
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    background: #e4d9ca;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.main {
+    display: flex;
+    position: absolute;
+}
+
+.article {
+    display: flex;
+    flex: 0 0 67%;
+    padding: 20px 10px;
+    margin: 10px 10px;
+    background: #e4d9ca;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.section {
+    display: flex;
+    background: #e9c9a0;
+    flex-flow: row wrap;
+    padding: 20px 10px;
+    margin: 10px 10px;
+    justify-content: center;
+    align-content: flex-end;
+    min-width: 700px;
+}
+
+.aside {
+    display: flex;
+    flex: 1 1 33%;
+    padding: 20px 10px;
+    justify-content: center;
+    background: rgb(155, 196, 155);
+}
+
+.flexconteiner {
+    display: flex;
+    background-color: rgb(136, 123, 123);
+    align-self: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.foot {
+    display: flex;
+    flex: 0 0 auto;
+    background-color: white;
+    padding: 20px 10px;
+    margin: 10px 10px;
+    align-self: center;
+    flex-grow: 1;
+}
